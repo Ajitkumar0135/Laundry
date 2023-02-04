@@ -1,0 +1,632 @@
+ * {
+   font-family: monospace;
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+ }
+
+ a {
+   text-decoration: none;
+ }
+
+ .header {
+   background-color: #79a7dc;
+   width: -webkit-fill-available;
+ }
+
+ .topnav {
+   overflow: hidden;
+ }
+
+ .topnav ul {
+   float: right;
+   margin-right: 20px;
+ }
+
+ .topnav li {
+   display: inline-block;
+   line-height: 95px;
+   margin: 0 5px;
+ }
+
+ a:hover {
+   background-color: #a9cae3;
+   transition: 0.5s;
+ }
+
+ .topnav ul li a {
+   color: white;
+   font-size: 17px;
+   text-transform: uppercase;
+   padding: 7px 13px;
+   border-radius: 5px;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 70px;
+   text-decoration: none;
+ }
+
+
+ .checkbtn {
+   font-size: 30px;
+   color: white;
+   float: right;
+   line-height: 80px;
+   margin-right: 40px;
+   cursor: pointer;
+   display: none;
+ }
+
+ #check {
+   display: none;
+ }
+
+
+ .logoWrapper {
+   height: 100px;
+   position: relative;
+   width: -webkit-fill-available;
+ }
+
+ .logo {
+   padding: 1%;
+   margin: 1%;
+   width: -webkit-fill-available;
+   position: absolute;
+   height: 180px;
+   width: 200px;
+
+ }
+
+ .motto {
+   padding: 3%;
+   height: fit-content;
+   color: black;
+   font-weight: bold;
+   vertical-align: center;
+   background-color: white;
+   font-family: monospace;
+   line-height: 30px;
+   background-size: auto;
+ }
+
+ #bg {
+   height: 613px;
+   width: -webkit-fill-available;
+   float: right;
+   max-width: 800px;
+ }
+
+ .quote {
+   height: 410px;
+   max-width: 40%;
+   width: -webkit-fill-available;
+   float: left;
+   margin-top: 5cm;
+   font-style: oblique;
+ }
+
+ .wh {
+   font-size: larger;
+ }
+
+ .bg_img {
+   height: 613px;
+   width: 60%;
+   float: right;
+ }
+
+
+ @media screen and (max-width: 600px) {
+
+   .column.side,
+   .column.middle {
+     width: 100%;
+   }
+ }
+
+ .img {
+   width: 100%;
+   height: 100%;
+ }
+
+ #logo {
+   height: 150;
+   width: 150;
+ }
+
+ .text {
+   background: rgba(10, 10, 10, 0.1);
+   color: white;
+   font-size: 15px;
+   padding: 8px 12px;
+   position: absolute;
+   bottom: 10%;
+   width: 100%;
+   text-align: center;
+ }
+
+ aboutimg {
+   height: 12cm;
+   padding: 2cm;
+ }
+
+ #aboutimg {
+   height: -webkit-fill-available;
+   width: -webkit-fill-available;
+   max-height: 8cm;
+ }
+
+ #pricing {
+   height: -webkit-fill-available;
+   width: -webkit-fill-available;
+   max-height: 6cm;
+ }
+
+ .aboutcontent {
+   padding: 1cm;
+   text-align: -webkit-center;
+   font-size: x-large;
+ }
+
+ .pricingdetails {
+   padding: 2cm;
+   margin: 2cm;
+   margin-top: 1cm;
+   padding-top: 1cm;
+   text-align: -webkit-center;
+   font-size: large;
+ }
+
+ 
+ .boxWrapper {
+   margin-left: 3cm;
+ }
+
+ .bottomhead {
+   text-align: center;
+   padding-bottom: 30px;
+ }
+
+ 
+ .high1020 {
+   height: 1020px;
+ }
+
+ .high1320 {
+   height: 1320px;
+ }
+
+ .high700 {
+   height: 700px;
+ }
+
+ .box1 {
+   float: left;
+   width: 29%;
+   background-color: white;
+   margin-right: 1%;
+   margin-top: 8%;
+   height: 500px;
+ }
+
+ .box2 {
+   float: left;
+   width: 69%;
+   margin-left: 1%;
+   height: 500px;
+ }
+
+ .rightFirstRow {
+   height: 250px;
+   width: 100%;
+ }
+
+ .rightSecondRow {
+   padding-top: 50px;
+   height: 250px;
+   width: 100%;
+ }
+
+ .updateStatusWrapper:hover {
+   background-image: url("");
+   background-color: lightblue;
+   color: white;
+ }
+
+ .updateStatusWrapper {
+   font-family: monospace;
+   color: black;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 250px;
+   float: left;
+   background-image: url("update.jpg");
+   background-size: contain;
+   width: 48%;
+   height: 100%;
+   margin-right: 2%;
+ }
+
+ .deliveryWrapper:hover {
+   background-image: url("");
+   background-color: lightblue;
+   color: white;
+ }
+
+ .deliveryWrapper {
+   font-family: monospace;
+   color: black;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 250px;
+   float: left;
+   background-image: url("derivery.jpg");
+   background-size: contain;
+   width: 48%;
+   height: 100%;
+   margin-left: 2%;
+ }
+
+ .regisItemWrapper:hover {
+   background-image: url("");
+   background-color: rgb(114, 153, 208);
+   color: white;
+ }
+
+ .regisItemWrapper {
+   font-family: monospace;
+   color: black;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 100px;
+   float: left;
+   background-image: url("trackstatus.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .viewHistorymWrapper:hover {
+   background-image: url("");
+   background-color: rgb(112, 153, 210);
+   color: white;
+ }
+
+ .viewHistorymWrapper {
+   font-family: monospace;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 200px;
+   float: left;
+   background-image: url("search.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .staffManagementWrapper:hover {
+   background-image: url("");
+   background-color: lightblue;
+   color: white;
+ }
+
+ .staffManagementWrapper {
+   font-family: monospace;
+   color: black;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 200px;
+   float: left;
+   background-image: url("staffmanagement.png");
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+ .memberManagementWrapper:hover {
+   background-image: url("");
+   background-color: lightblue;
+   color: white;
+ }
+
+ .memberManagementWrapper {
+   font-family: monospace;
+   color: black;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 200px;
+   float: left;
+   background-image: url("membermanagement.jpg");
+   background-size: cover;
+   width: 100%;
+   height: 100%;
+ }
+
+
+ .profileWrapper {
+   display: block;
+   margin-left: auto;
+   margin-right: auto;
+   width: 70%;
+ }
+
+ .profileImg {
+   width: 100%;
+   height: 100%;
+ }
+
+ .pofileText {
+   text-align: center;
+   font-family: monospace;
+   color: #003366;
+   width: 100%;
+   height: 30%;
+ }
+
+
+
+ footer {
+
+   width: 100%;
+ }
+
+ .leftFooter {
+   padding-top: 1%;
+   border-top: 1px solid rgba(10, 10, 10, 0.3);
+   float: left;
+   width: 50%;
+ }
+
+ .rightFooter {
+   padding-top: 1%;
+   border-top: 1px solid rgba(10, 10, 10, 0.3);
+   float: left;
+   width: 50%;
+ }
+
+ .socialIcon {
+   float: left;
+   height: 10%;
+   width: 10%;
+   margin: 2%;
+ }
+
+ .footerContent {
+   width: 100%;
+   padding: 10%;
+   padding-top: 5%;
+   border-top: 1px solid rgba(10, 10, 10, 0.1);
+ }
+
+ #followUs {
+   float: left;
+   width: 50%;
+
+ }
+
+ .memberCredit {
+   padding-left: 60%;
+ }
+
+ .nameList {
+   padding-left: 60%;
+ }
+
+ #name {
+   list-style-type: none;
+ }
+
+ .iconWrapper {
+   float: left;
+   width: 50%;
+ }
+
+ .aboutPageContent {
+   margin: 5%;
+   height: 1000px;
+ }
+
+ .person {
+   padding-left: 10%;
+   padding-right: 10%;
+   width: 100%;
+   height: 200px;
+   border-bottom: 1px solid black;
+   margin-top: 5%;
+   background: #e5e7c7;
+   border-radius: 15px;
+ }
+
+ .personImageDiv {
+
+   float: left;
+   width: 40%;
+ }
+
+ .personImage {
+
+   width: 200px;
+   height: 200px;
+ }
+
+ .Right {
+   float: right;
+ }
+
+ .personalInfo {
+   list-style-type: none;
+
+ }
+
+ .personalInfoDiv {
+   padding-top: 5%;
+   width: 60%;
+   float: left;
+ }
+
+ input[type=text],
+ select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+
+ }
+
+ input[type=date],
+ select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+
+ }
+
+ input[type=address],
+ select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+
+ }
+
+ input[type=password],
+ select {
+   width: 100%;
+   padding: 12px 20px;
+   margin: 8px 0;
+   display: inline-block;
+   border: 1px solid #ccc;
+   border-radius: 4px;
+
+ }
+
+
+ input[type=submit] {
+   width: 100%;
+   background-color: #003366;
+   color: white;
+   padding: 14px 20px;
+   margin: 8px 0;
+   border: none;
+   border-radius: 4px;
+   cursor: pointer;
+ }
+
+
+ input[type=submit]:hover {
+   background-color: #b3c6ff;
+ }
+
+ .registerContent {
+   margin: 5%;
+   width: 50%;
+   float: left;
+
+ }
+
+ .regisImageWrapper {
+   margin-top: 5%;
+   margin-right: 5%;
+   float: left;
+   width: 35%;
+   height: 500px;
+
+ }
+
+ .regisImageWrapper img {
+   width: 100%;
+   height: 100%;
+ }
+
+ .infoContent {
+   margin: 5%;
+ }
+
+ .textInfo {
+   border-top: 1px solid rgba(10, 10, 10, 0.5);
+   margin-top: 2%;
+   padding-top: 0.5%;
+   border-bottom: 1px solid rgba(10, 10, 10, 0.5);
+   margin-bottom: 2%;
+   padding-bottom: 0.5%;
+
+ }
+
+ .commentsWrapper {
+   text-align: center;
+ }
+
+ .commentBox {
+   margin-top: 1%;
+   padding: 10%;
+   width: 70%;
+ }
+
+ tr {
+   text-align: center;
+ }
+
+ td {
+   border: 1px solid black;
+   padding: 10px;
+ }
+
+ table {
+   border-collapse: collapse;
+   width: 100%;
+ }
+
+
+ .welcome {
+   border-radius: 10%;
+   font-family: monospace;
+   text-align: center;
+   vertical-align: middle;
+   line-height: 50px;
+   text-align: center;
+   float: left;
+   width: 25%;
+
+ }
+
+ .welcome:hover {
+   background-color: white;
+ }
+
+ .User {
+   color: #003366;
+   background-color: #b3c6ff;
+ }
+
+ .Staff {
+   background-color: #003366;
+   color: #90a9f4;
+   margin-left: 1cm;
+ }
+
+ .regisForm {
+   width: 100%;
+ }
+
+ .regisItemSubmitWrapper {
+   margin-top: 50px;
+   width: 50%;
+ }
+
+ .regisitemImageWrapper {
+   float: left;
+   height: 550px;
+   padding-top: 10px;
+   padding-left: 5%;
+   width: 50%;
+
+ }
